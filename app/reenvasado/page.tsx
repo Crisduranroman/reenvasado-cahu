@@ -214,7 +214,14 @@ export default function ReenvasadoPage() {
             <Pill color="white" size={26} />
           </div>
           <div>
-            <h1 style={{ fontSize: '1.1rem', fontWeight: 900, margin: 0, color: '#0f172a' }}>Reenvasado HUCA</h1>
+           <h1 style={{ fontSize: '1.1rem', fontWeight: 900, margin: 0, color: '#0f172a', lineHeight: 1.15 }}>
+           Reenvasado Servicio de Farmacia
+           <br />
+           <span style={{ fontSize: '0.85rem', fontWeight: 600, color: '#475569' }}>
+           Hospital Universitario de Cabueñes
+           </span>
+           </h1>
+
             <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginTop: 2 }}>
               <User size={12} color={userRol === 'farmaceutico' ? '#f59e0b' : '#0ea5e9'} />
               <span style={{ fontSize: '0.7rem', fontWeight: 700, color: userRol === 'farmaceutico' ? '#f59e0b' : '#0ea5e9', textTransform: 'uppercase' }}>
